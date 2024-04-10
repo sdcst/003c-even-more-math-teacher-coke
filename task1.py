@@ -18,3 +18,9 @@ Enter actual : 14
 The percent difference is 16.67%
 ```
 '''
+
+e = int(input("Enter expected: "))
+a = int(input("Enter actual: "))
+pd = ((a-e)/e)*100
+pd = round(pd, 2)
+print(f"The percentage difference is {pd}%")
